@@ -1,0 +1,31 @@
+{
+  "name": "agent-tauri",
+  "version": "1.0.0",
+  "description": "Agent-centric automation, inspection, and interaction CLI and skill for Tauri applications",
+  "main": "src/index.js",
+  "bin": {
+    "agent-tauri": "./bin/agent-tauri.js"
+  },
+  "scripts": {
+    "test": "node tests/test-runner.js",
+    "start": "node bin/agent-tauri.js"
+  },
+  "keywords": [
+    "tauri",
+    "agent",
+    "playwright",
+    "cdp",
+    "automation",
+    "ai-agent",
+    "claude-code",
+    "antigravity",
+    "testing",
+    "desktop-automation"
+  ],
+  "author": "Antigravity & Claude Code Agent Ecosystem",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "playwright-core": "^1.58.0"
+  }
+}

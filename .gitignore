@@ -1,0 +1,4 @@
+node_modules/
+.agent-tauri/
+*.png
+*.log
